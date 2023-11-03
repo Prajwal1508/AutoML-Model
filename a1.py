@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
